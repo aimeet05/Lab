@@ -47,19 +47,18 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
-
+ Plot shows a bar chart, each bar labelled with each persons GitHub username, height of bar shows favorite number and color of bar shows favorite color
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "GitHub Username", 
+          y = "Favorite Number",
+          title = "Team Data")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+Command Labs() allows to add titles for x-axis, y-axis, main title.
 
 ### Exercise 20
 
@@ -69,4 +68,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+Graph should be a table instead, shows info clearly.
